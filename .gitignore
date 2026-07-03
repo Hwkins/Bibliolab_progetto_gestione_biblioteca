@@ -1,0 +1,40 @@
+# Variabili d'ambiente
+.env
+.env.*
+!.env.example
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+.venv/
+venv/
+backend/.venv/
+backend/.pytest_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Static files e media
+backend/staticfiles/
+backend/media/
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
